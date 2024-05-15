@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg text-white fixed-top pt-3">
+      <div class="container">
+        <a class="navbar-brand fs-3 text-white" href="#">DevFolio</a>
+        <button
+          class="bg-white navbar-toggler"
+          data-bs-toggle="modal"
+          data-bs-target="#staticBackdrop"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-white">
+            <li class="nav-item">
+              <a
+                class="nav-link text-black-sm me-4 fs-5 active text-white"
+                aria-current="page"
+                href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black-sm me-4 fs-5 text-white"
+                href="#about"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black-sm me-4 fs-5 text-white"
+                href="#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-black-sm me-4 fs-5 text-white"
+                href="#protofolio"
+                >profile</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-sm me-4 fs-5 text-white" href="#"
+                >Link</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link text-black-sm me-4 fs-5 dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-black-sm me-4 fs-5 text-white" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div
+      class="modal fade w-100"
+      id="staticBackdrop"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-sm-black me-4 fs-5 active"
+                  aria-current="page"
+                  href="#home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-sm-black me-4 fs-5" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-sm-black me-4 fs-5" href="#services"
+                  >Services</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-sm-black me-4 fs-5" href="#protofolio"
+                  >protofolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-sm-black me-4 fs-5" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link text-sm-black me-4 fs-5 dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-sm-black me-4 fs-5" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- home -->
+    <section
+      id="home"
+      class="vh-100 d-flex justify-content-center align-items-center"
+    >
+      <div class="cont text-white">
+        <p class="">Iam Ahmed Ashraf</p>
+        <p class="position-relative text-center"></p>
+      </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="p-2 pt-5 pb-5">
+      <div class="container container-fluid-lg p-0">
+        <div class="row g-5">
+          <div class="col-lg-6">
+            <div class="inner">
+              <div
+                class="person d-flex flex-wrap justify-content-between align-items-center"
+              >
+                <div class="image">
+                  <img
+                    class="rounded-2 w-100"
+                    src="./images/testimonial-2.jpg"
+                    alt=""
+                  />
+                </div>
+                <div class="cont">
+                  <p class="fs-5">
+                    <span class="fw-bolder">Name:</span> Ahmed Ashraf
+                  </p>
+                  <p class="fs-5">
+                    <span class="fw-bolder">profile:</span> wep developer
+                  </p>
+                  <p class="fs-5">
+                    <span class="fw-bolder">Emali:</span> aaboshady@gamile.com
+                  </p>
+                  <p class="fs-5">
+                    <span class="fw-bolder">Phone:</span> 01558921462
+                  </p>
+                </div>
+              </div>
+              <div class="skills mt-4">
+                <p class="fw-bolder fs-3">skill</p>
+                <div class="bar mt-2 mb-0">
+                  <p>html 75%</p>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                </div>
+                <div class="bar mt-2">
+                  <p>css 50%</p>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="50"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-50"></div>
+                  </div>
+                </div>
+                <div class="bar mt-2 mb-0">
+                  <p>php 25%</p>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="25"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-25"></div>
+                  </div>
+                </div>
+                <div class="bar mt-2 mb-0">
+                  <p>js 75%</p>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Basic example"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <div class="progress-bar w-75"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="mb-3 creative fs-2">About me</h3>
+            <p class="mb-4 fs-5">
+              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Nulla porttitor accumsan tincidunt.
+            </p>
+            <p class="mb-4 fs-5">
+              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Nulla porttitor accumsan tincidunt.
+            </p>
+            <p class="fs-5 mb-5">
+              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Nulla porttitor accumsan tincidunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services -->
+    <div id="services" class="pt-2 pb-5">
+      <div class="container">
+        <div class="maintext">
+          <h2 class="text-center m-0 main-head fw-bolder">sercives</h2>
+          <p class="text-center pt-2 pb-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="row row-f gy-5 mb-4">
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 text-center">
+            <div class="inner">
+              <i class="fa-solid fa-envelope"></i>
+              <h3>web designe</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+                adipisci eaque autem fugiat! Quia, provident vitae! Magni
+                tempora perferendis eum non provident.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="status container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner text-center text-white p-3">
+              <i class="fs-3 fa-solid fa-check"></i>
+              <h3 class="m-3 fs-3">450</h3>
+              <p class="fs-4">Lorem, ipsum.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner text-center text-white p-3">
+              <i class="fs-3 fa-solid fa-check"></i>
+              <h3 class="m-3 fs-3">450</h3>
+              <p class="fs-4">Lorem, ipsum.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner text-center text-white p-3">
+              <i class="fs-3 fa-solid fa-check"></i>
+              <h3 class="m-3 fs-3">450</h3>
+              <p class="fs-4">Lorem, ipsum.</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="inner text-center text-white p-3">
+              <i class="fs-3 fa-solid fa-check"></i>
+              <h3 class="m-3 fs-3">450</h3>
+              <p class="fs-4">Lorem, ipsum.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- protofolio -->
+    <section id="protofolio" class="pt-5 pb-5">
+      <div class="container mb-3">
+        <div class="maintext">
+          <h2 class="text-center m-0 main-head fw-bolder">protofolio</h2>
+          <p class="text-center pt-2 pb-3">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="row gy-5">
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div
+                class="image overflow-hidden overflow-hidden position-relative"
+              >
+                <img src="./images/work-1.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div class="image overflow-hidden">
+                <img src="./images/work-2.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div class="image overflow-hidden">
+                <img src="./images/work-3.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div class="image overflow-hidden">
+                <img src="./images/work-4.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div class="image overflow-hidden">
+                <img src="./images/work-5.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class="inner">
+              <div class="image overflow-hidden">
+                <img src="./images/work-6.jpg" class="w-100" alt="" />
+              </div>
+              <div
+                class="cont d-flex text-black justify-content-around align-content-center mt-5"
+              >
+                <div class="p">
+                  <p class="mb-1">Lorem ipsum dolor</p>
+                  <p>
+                    <span class="text-info">web design</span> ipsum dolor sit.
+                  </p>
+                </div>
+                <div class="icon">
+                  <i
+                    class="fa-solid fa-plus p-2 border border-4 text-info fs-4 rounded-circle border-info"
+                  ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="prof-status">
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <img
+                src="./images/testimonial-2.jpg"
+                class=" "
+                style="width: 100px; height: 100px; border-radius: 50%"
+                alt="..."
+              />
+              <h3>mohamed ali</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+                at!
+              </p>
+            </div>
+            <div class="carousel-item text-center">
+              <img
+                src="./images/testimonial-4.jpg"
+                class=" "
+                style="width: 100px; height: 100px; border-radius: 50%"
+                alt="..."
+              />
+              <h3>sara basha</h3>
+              <p>
+                Lorem ss ipsum sit sss consectetur hello from my university!
+              </p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev position-absolute"
+            style="left: -30px"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next position-absolute"
+            style="right: -30px"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- blog -->
+    <div id="blog" class="pt-5 pb-5">
+      <div class="maintext">
+        <h2 class="text-center m-0 main-head fw-bolder">blog</h2>
+        <p class="text-center pt-2 pb-3">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="inner position-relative bg-white"
+              style="box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1)"
+            >
+              <div class="image">
+                <img src="./images/post-1.jpg" class="w-100" alt="" />
+              </div>
+              <h3
+                class="position-absolute start-50 translate-middle fs-5 bg-info text-white p-1 rounded-2"
+              >
+                develop
+              </h3>
+              <p class="mt-4">Lorem ipsum dolor sit amet.</p>
+              <p class="pb-5 border-bottom border-bottom-3 mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                id.
+              </p>
+              <div
+                class="cont p-1 pt-1 d-flex align-items-center justify-content-between"
+                style="background-color: #f8f8f8"
+              >
+                <div class="right-cont d-flex align-items-center">
+                  <img
+                    src="./images/testimonial-2.jpg"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      margin-right: 5px;
+                    "
+                    alt=""
+                  />
+                  <p class="mb-0">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="left-cont">
+                  <i class="fa-regular fa-clock"></i><span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="inner position-relative bg-white"
+              style="box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1)"
+            >
+              <div class="image">
+                <img src="./images/post-1.jpg" class="w-100" alt="" />
+              </div>
+              <h3
+                class="position-absolute start-50 translate-middle fs-5 bg-info text-white p-1 rounded-2"
+              >
+                develop
+              </h3>
+              <p class="mt-4">Lorem ipsum dolor sit amet.</p>
+              <p class="pb-5 border-bottom border-bottom-3 mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                id.
+              </p>
+              <div
+                class="cont p-1 pt-1 d-flex align-items-center justify-content-between"
+                style="background-color: #f8f8f8"
+              >
+                <div class="right-cont d-flex align-items-center">
+                  <img
+                    src="./images/testimonial-2.jpg"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      margin-right: 5px;
+                    "
+                    alt=""
+                  />
+                  <p class="mb-0">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="left-cont">
+                  <i class="fa-regular fa-clock"></i><span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div
+              class="inner position-relative bg-white"
+              style="box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1)"
+            >
+              <div class="image">
+                <img src="./images/post-1.jpg" class="w-100" alt="" />
+              </div>
+              <h3
+                class="position-absolute start-50 translate-middle fs-5 bg-info text-white p-1 rounded-2"
+              >
+                develop
+              </h3>
+              <p class="mt-4">Lorem ipsum dolor sit amet.</p>
+              <p class="pb-5 border-bottom border-bottom-3 mb-0">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui,
+                id.
+              </p>
+              <div
+                class="cont p-1 pt-1 d-flex align-items-center justify-content-between"
+                style="background-color: #f8f8f8"
+              >
+                <div class="right-cont d-flex align-items-center">
+                  <img
+                    src="./images/testimonial-2.jpg"
+                    style="
+                      width: 40px;
+                      height: 40px;
+                      border-radius: 50%;
+                      margin-right: 5px;
+                    "
+                    alt=""
+                  />
+                  <p class="mb-0">Lorem, ipsum dolor.</p>
+                </div>
+                <div class="left-cont">
+                  <i class="fa-regular fa-clock"></i><span>10 min</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form p-sm-5">
+      <div class="container p-sm-5">
+        <div class="inner final flex-wrap d-flex justify-content-between gap-4">
+          <div class="inp">
+            <h2 class="mb-4">get in touch</h2>
+            <input
+              class="d-block mb-2 p-2 w-100"
+              placeholder="your name"
+              type="text"
+              name=""
+              id=""
+            />
+            <input
+              class="d-block mb-2 p-2 w-100"
+              placeholder="your email"
+              type="email"
+              name=""
+              id=""
+            />
+            <input
+              class="d-block mb-2 p-2 w-100"
+              placeholder="your subject"
+              type="text"
+              name=""
+              id=""
+            />
+            <textarea
+              name=""
+              class="w-100 mb-5"
+              id=""
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button
+              class="p-2 fs-4 border rounded-3 bg-info text-white d-block m-auto"
+            >
+              send message
+            </button>
+          </div>
+          <div class="data">
+            <h2>our data</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              excepturi laborum dolorum deleniti perspiciatis similique
+              consequuntur, aliquid suscipit error aut!
+            </p>
+            <ul>
+              <li>hello</li>
+              <li>hello</li>
+              <li>hello</li>
+            </ul>
+            <ul class="d-flex justify-content-between w-75">
+              <li class="ms-2">
+                <i
+                  class="fa-brands fs-3 p-2 border border-3 border-info rounded-circle fa-facebook"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fs-3 p-2 border border-3 border-info rounded-circle fa-youtube"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fs-3 p-2 border border-3 border-info rounded-circle fa-linkedin"
+                ></i>
+              </li>
+              <li>
+                <i
+                  class="fa-brands fs-3 p-2 border border-3 border-info rounded-circle fa-twitter"
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-info p-4 border-top border-3 border-info">
+      <p class="mb-0 text-center">all rights reserved to ENG : Ahmed Ashraf</p>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
